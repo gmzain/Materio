@@ -1,0 +1,128 @@
+:root {
+  --purple: #8c57ff;
+  --gray: #423b50;
+}
+
+.border-purple {
+  border: 1px solid var(--purple) !important ;
+}
+.text-sm {
+  font-size: 0.8rem !important;
+}
+.text-md {
+  font-size: 0.9rem !important;
+}
+
+.object-contain {
+  object-fit: contain !important;
+}
+.object-cover {
+  object-fit: cover !important;
+}
+
+.text-purple {
+  color: var(--purple) !important;
+}
+
+.bg-purple {
+  background-color: var(--purple) !important;
+}
+
+.text-gray {
+  color: var(--gray) !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.height-full {
+  height: 100vh !important;
+}
+
+.transform-nx-100 {
+  transform: translateX(-100%) !important;
+}
+.transform-px-100 {
+  transform: translateX(100%) !important;
+}
+.transform-py-100 {
+  transform: translateY(100%) !important;
+}
+.transform-ny-100 {
+  transform: translateY(-100%) !important;
+}
+
+.transition-slow {
+  transition: all 0.7s !important;
+}
+.transition-md {
+  transition: all 0.4s !important;
+}
+.transition-fast {
+  transition: all 0.2s !important;
+}
+.opacity-0 {
+  opacity: 0 !important;
+}
+.opacity-1 {
+  opacity: 1 !important;
+}
+
+.bg-purple-light {
+  background: #ede4ff !important;
+}
+
+.height-0 {
+  height: 0 !important;
+}
+.height-100 {
+  height: 800px !important;
+}
+
+.border-purple {
+  border: 1px solid var(--purple) !important;
+}
+
+.slider-container .slick-slide {
+  padding: 0 10px; /* Adds space between cards */
+}
+
+.my-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures content is distributed evenly */
+  min-height: 250px; /* Set a fixed minimum height */
+  box-sizing: border-box; /* Ensures padding and border are included in height */
+}
+
+.reg-cover-image {
+  background-image: url("https://demos.themeselection.com/marketplace/materio-mui-nextjs-admin-template/demo-1/images/pages/auth-v2-mask-light.png");
+  background-size: cover;
+}
+
+.hover-gray {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.hover-gray:hover {
+  background-color: #ececf2 !important;
+}
+
+.object-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+vaadin-rich-text-editor {
+  border-radius: 10px !important;
+  overflow: hidden !important;
+}
+
+.ql-active {
+  background-color: var(--purple) !important;
+  color: white !important;
+}
